@@ -1,0 +1,134 @@
+* {
+    margin: auto;
+    padding: 0%;
+}
+
+header {
+    background-color: #00A64F;
+    width: 100%;
+    height: 90px;
+    margin: auto;
+    display: block;
+    float: center;
+} 
+
+#header {
+    margin-top: 0%;
+}
+
+header>a{
+    margin: 50px;
+}
+
+img {
+    width: 190px;
+    height: 90px;
+    margin-left: 20px;
+}
+
+h1 {
+    margin: auto;
+    display: block;
+    text-align: center;
+    margin-bottom: 15px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h2{
+    margin-bottom: 5px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#content {
+    width: 100%;
+    max-height: 7000px;
+    background-color: #EFF0E8;
+    padding: 10px;
+    position: absolute;
+}
+
+.input {
+    margin: auto;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: white;
+    height: 50px;
+    width: 400px;    
+    padding: 5px;
+    display: block;
+    margin-top: 20px;
+    transition-duration: 0.5s;
+    text-align: center;
+    border: none;
+}
+
+.input:hover{
+    opacity: 0.9;
+    background-color: #21C25E;
+    font-size: large;
+    color: white;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+#input_div {
+    text-align: center;
+}
+
+#botao {
+    border-radius: 25px;
+    font-size: .8rem;
+    text-align: center;
+    margin-top: 15px;
+    padding: 8px 19px;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: white;
+    font-weight: 600;
+    letter-spacing: 1px;
+    transition: all .6s;
+    text-decoration: none;
+    color: black;
+    display: block;
+    top: 50%;
+    border: none;
+}
+
+#botao:hover{
+    opacity: 0.9;
+    background-color: #21C25E;
+    padding: 10px 22px;
+}
+
+footer {
+    background-color: #00A64F;
+    width: 100%;
+    height: 150px;
+} 
+
+#res{
+    background-color: aliceblue;
+    border-radius: 5px;
+    max-height: 1500px;
+    width: 300px;
+    margin: 20px;
+    position: relative;
+    top: -500px;
+    border-style: solid;
+    border-color: #21C25E;
+    height: 400px;
+    padding: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#resul {
+    float: left;
+    position: relative;
+    top: -510px;
+}

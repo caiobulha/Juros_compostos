@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PicPay: Calculadore de Juros Compostos</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="imagens/picpaylogo.png" type="image/x-icon">
+</head>
+<body>
+    <div id="header">
+    <header><img src="imagens/picpay.png">
+        <!-- <a href="">Home</a>
+        <a href="">Sobre Nós</a>
+        <a href="">Contate-nos</a>
+        <a href="">Baixe o App</a> -->
+    </header>
+    </div>
+    <div id="content">
+        <div id="input_div">
+        <h2>Valor Inicial</h2><input type="number" placeholder="Valor Inicial" class="input" id="preco">
+        <h2>Valor Mensal</h2><input type="number" placeholder="Valor Mensal" class="input" id="valorMensal">
+        <h2>% de Juros</h2><input type="number" placeholder="% de juros" class="input" id="jur">
+        <h2>Tempo em Meses</h2><input type="number" placeholder="Tempo em Meses" class="input" id="par">
+
+        <input type="button" id="botao" value="Calcular" onclick="Calcular()">
+        <input type="button" id ="botao" value="Calcular com Selic" onclick="selic()">
+        <h1 id="resul">Valor Gerado Por Mês:</h1>
+        <div id="res"></div>
+        </div>
+    </div>
+    <footer></footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
